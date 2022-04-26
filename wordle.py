@@ -12,7 +12,7 @@ with open ("wordle_5_letters.txt") as file: # Dictionary of 500 5-letter words
 a = random.randint(0, len(listofwords)-1) # Random word out of listofwords
 p = listofwords[a]
 
-print("Welcome To Wordle!")
+print("Welcome To Wordle!!!")
 print("Please enter your five letter guesses in lowercase!")
 
 def isinside(letter, word):
